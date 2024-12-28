@@ -160,7 +160,7 @@ if __name__ == '__main__':
 
     args.cfg_file = BUTD_ROOT + "experiments/cfgs/faster_rcnn_end2end_resnet.yml" # s = 500
     args.prototxt = BUTD_ROOT + "models/vg/ResNet-101/faster_rcnn_end2end_final/test.prototxt"
-    args.outfile = "obj36.tsv"
+    args.outfile = f"{args.out}_obj36.tsv"
     
     print('Called with args:')
     print(args)
